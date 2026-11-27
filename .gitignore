@@ -1,0 +1,43 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# Base de datos SQLite3 (conservando migraciones)
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Logs y archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Bases locales alternativas, temporales y paquetes de entrega
+*.sqlite
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+*.zip

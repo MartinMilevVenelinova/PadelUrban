@@ -1,0 +1,20 @@
+[
+  {
+    "model": "reservas.pista",
+    "pk": 1,
+    "fields": {
+      "nombre": "Pista 1 - Central",
+      "techada": true,
+      "activa": true
+    }
+  },
+  {
+    "model": "reservas.pista",
+    "pk": 2,
+    "fields": {
+      "nombre": "Pista 2 - Exterior",
+      "techada": false,
+      "activa": true
+    }
+  }
+]

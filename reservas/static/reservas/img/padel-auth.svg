@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" fill="none" aria-hidden="true">
+  <rect x="20" y="20" width="320" height="260" rx="24" fill="#FCFAF7" fill-opacity="0.75"/>
+  <circle cx="275" cy="80" r="46" fill="#FAE1D2"/>
+  <circle cx="95" cy="225" r="54" fill="#DEEAF8"/>
+  <!-- Pista estilizada -->
+  <rect x="75" y="165" width="210" height="90" rx="12" fill="#FFFFFF" stroke="#66508C" stroke-width="2.5"/>
+  <line x1="180" y1="165" x2="180" y2="255" stroke="#29263D" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="120" y1="165" x2="120" y2="255" stroke="#66508C" stroke-width="1.4"/>
+  <line x1="240" y1="165" x2="240" y2="255" stroke="#66508C" stroke-width="1.4"/>
+  <line x1="120" y1="210" x2="240" y2="210" stroke="#66508C" stroke-width="1.4"/>
+  <!-- Pala 1 -->
+  <g transform="rotate(-24 148 112)">
+    <rect x="142" y="142" width="12" height="44" rx="6" fill="#29263D"/>
+    <ellipse cx="148" cy="105" rx="34" ry="42" fill="#66508C"/>
+    <circle cx="136" cy="90" r="3.5" fill="#EEE8FB"/>
+    <circle cx="148" cy="86" r="3.5" fill="#EEE8FB"/>
+    <circle cx="160" cy="90" r="3.5" fill="#EEE8FB"/>
+    <circle cx="134" cy="106" r="3.5" fill="#EEE8FB"/>
+    <circle cx="148" cy="104" r="3.5" fill="#EEE8FB"/>
+    <circle cx="162" cy="106" r="3.5" fill="#EEE8FB"/>
+    <circle cx="140" cy="121" r="3.5" fill="#EEE8FB"/>
+    <circle cx="156" cy="121" r="3.5" fill="#EEE8FB"/>
+  </g>
+  <!-- Pelota -->
+  <circle cx="242" cy="98" r="18" fill="#FAE1D2" stroke="#66508C" stroke-width="2.5"/>
+  <path d="M233 84c6 7 6 21 0 28" stroke="#66508C" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M251 84c-6 7-6 21 0 28" stroke="#66508C" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

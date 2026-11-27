@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Reservas — PadelUrban{% endblock %}
+
+{% block content %}
+<section class="pu-hero-compact mb-4">
+    <div class="row g-3 align-items-center">
+        <div class="col-12 col-md-8">
+            <h1 class="h3 mb-1">Tu próximo partido empieza aquí</h1>
+            <p class="text-pu-muted mb-3">Consulta los horarios reservados de la comunidad y solicita tu pista.</p>
+            <a href="{% url 'reserva_crear' %}" class="btn btn-pu-primary">Reservar pista</a>
+        </div>
+        <div class="col-12 col-md-4 text-center text-md-end">
+            <img src="{% static 'reservas/img/pista-cenital.svg' %}" alt="" class="img-fluid pu-decorative" style="max-height: 115px;" aria-hidden="true">
+        </div>
+    </div>
+</section>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="h4 mb-0">Reservas programadas</h2>
+    <span class="text-pu-muted small">Orden cronológico</span>
+</div>
+
+{% if reservas %}
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
+        {% for reserva in reservas %}
+            <div class="col">
+                <article class="pu-reserva-card h-100 d-flex flex-column justify-content-between {% if reserva.usuario == user %}pu-reserva-card--propia{% endif %}">
+                    <div>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                            <span class="pu-date-pill">{{ reserva.fecha|date:"d/m/Y" }}</span>
+                            {% if reserva.usuario == user %}
+                                <span class="pu-badge-propia">Tu reserva</span>
+                            {% endif %}
+                        </div>
+
+                        <h3 class="h5 mb-2">{{ reserva.pista }}</h3>
+
+                        <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+                            <span class="fw-semibold">{{ reserva.hora_inicio|time:"H:i" }} – {{ reserva.hora_fin|time:"H:i" }}</span>
+                            <span class="pu-duration-pill">{{ reserva.duracion_minutos }} min</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 pt-3 border-top" style="border-color: var(--pu-border) !important;">
+                        <span class="text-pu-muted small">Vecino: <strong class="text-dark">{{ reserva.usuario.username }}</strong></span>
+                        {% if reserva.usuario == user %}
+                            <form method="post" action="{% url 'reserva_cancelar' reserva.pk %}" class="m-0" onsubmit="return confirm('¿Seguro que deseas cancelar esta reserva?');">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-pu-danger">Cancelar</button>
+                            </form>
+                        {% endif %}
+                    </div>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="pu-card text-center py-5 px-3">
+        <img src="{% static 'reservas/img/pelota-empty.svg' %}" alt="" width="88" height="88" class="pu-decorative mb-3" aria-hidden="true">
+        <h3 class="h5 mb-2">Todavía no hay reservas</h3>
+        <p class="text-pu-muted mb-4">Las pistas están libres. Anímate a estrenar la jornada.</p>
+        <a href="{% url 'reserva_crear' %}" class="btn btn-pu-primary">Reservar pista</a>
+    </div>
+{% endif %}
+{% endblock %}

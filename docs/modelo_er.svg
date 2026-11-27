@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1120" height="880" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1120 880" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1120" height="880"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-880)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1120" height="880" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="48" y="829" style="font-family: Bold; font-size: 31px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1658) scale(1,-1)">PadelUrban</text>
+			<text x="48" y="797" style="font-family: Regular; font-size: 17px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1594) scale(1,-1)">Modelo entidad-relación · Notación de patas de gallo</text>
+			<rect x="873" y="812" width="199" height="41" rx="15" ry="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="895.639404296875" y="827" style="font-family: Bold; font-size: 13px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1654) scale(1,-1)">EXAMEN E2 · UF2405</text>
+			<rect x="48" y="588" width="440" height="166" rx="17" ry="17" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="49" y="692" width="438" height="61" rx="15" ry="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<rect x="49" y="692" width="438" height="17" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="68" y="727" style="font-family: Bold; font-size: 19px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1454) scale(1,-1)">Usuario</text>
+			<text x="68" y="705" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1410) scale(1,-1)">auth_user · campos relevantes</text>
+			<rect x="64" y="663" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="78.4609375" y="669" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1338) scale(1,-1)">PK</text>
+			<text x="122" y="669" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1338) scale(1,-1)">id</text>
+			<text x="435.787109375" y="669" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1338) scale(1,-1)">bigint</text>
+			<path d="M 64,660 L 472,660 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<rect x="64" y="631" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="78.0654296875" y="637" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1274) scale(1,-1)">UK</text>
+			<text x="122" y="637" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1274) scale(1,-1)">username</text>
+			<text x="424.12109375" y="637" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1274) scale(1,-1)">varchar</text>
+			<path d="M 64,628 L 472,628 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="122" y="605" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1210) scale(1,-1)">password</text>
+			<text x="383.861328125" y="605" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1210) scale(1,-1)">varchar · hash</text>
+			<rect x="632" y="556" width="440" height="198" rx="17" ry="17" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="633" y="692" width="438" height="61" rx="15" ry="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(87%,91%,97%); fill-rule: evenodd;"/>
+			<rect x="633" y="692" width="438" height="17" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(87%,91%,97%); fill-rule: evenodd;"/>
+			<text x="652" y="727" style="font-family: Bold; font-size: 19px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1454) scale(1,-1)">Pista</text>
+			<text x="652" y="705" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1410) scale(1,-1)">reservas_pista</text>
+			<rect x="648" y="663" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="662.4609375" y="669" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1338) scale(1,-1)">PK</text>
+			<text x="706" y="669" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1338) scale(1,-1)">id</text>
+			<text x="1019.787109375" y="669" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1338) scale(1,-1)">bigint</text>
+			<path d="M 648,660 L 1056,660 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<rect x="648" y="631" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="662.0654296875" y="637" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1274) scale(1,-1)">UK</text>
+			<text x="706" y="637" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1274) scale(1,-1)">nombre</text>
+			<text x="975.853515625" y="637" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1274) scale(1,-1)">varchar(100)</text>
+			<path d="M 648,628 L 1056,628 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="706" y="605" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1210) scale(1,-1)">techada</text>
+			<text x="1006.0234375" y="605" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1210) scale(1,-1)">boolean</text>
+			<path d="M 648,596 L 1056,596 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="706" y="573" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,1146) scale(1,-1)">activa</text>
+			<text x="1006.0234375" y="573" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1146) scale(1,-1)">boolean</text>
+			<path d="M 268,588 L 268,487 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 268,487 L 411,487 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 411,487 L 411,440 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 260,577 L 276,577 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 260,569 L 276,569 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="411" cy="447" r="5.5" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<path d="M 411,440 L 411,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 411,440 L 402,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 411,440 L 420,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<text x="282" y="529" style="font-family: Bold; font-size: 14px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1058) scale(1,-1)">realiza</text>
+			<text x="283" y="564" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1128) scale(1,-1)">1</text>
+			<text x="427" y="428" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,856) scale(1,-1)">0..N</text>
+			<path d="M 852,556 L 852,487 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 852,487 L 709,487 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 709,487 L 709,440 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 844,545 L 860,545 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 844,537 L 860,537 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="709" cy="447" r="5.5" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<path d="M 709,440 L 709,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 709,440 L 700,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<path d="M 709,440 L 718,420 Z" style="stroke: rgb(40%,31%,54%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<text x="866" y="504" style="font-family: Bold; font-size: 14px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,1008) scale(1,-1)">recibe</text>
+			<text x="867" y="532" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,1064) scale(1,-1)">1</text>
+			<text x="725" y="428" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,856) scale(1,-1)">0..N</text>
+			<rect x="340" y="158" width="440" height="262" rx="17" ry="17" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="341" y="358" width="438" height="61" rx="15" ry="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,88%,82%); fill-rule: evenodd;"/>
+			<rect x="341" y="358" width="438" height="17" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(98%,88%,82%); fill-rule: evenodd;"/>
+			<text x="360" y="393" style="font-family: Bold; font-size: 19px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,786) scale(1,-1)">Reserva</text>
+			<text x="360" y="371" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,742) scale(1,-1)">reservas_reserva</text>
+			<rect x="356" y="329" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="370.4609375" y="335" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,670) scale(1,-1)">PK</text>
+			<text x="414" y="335" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,670) scale(1,-1)">id</text>
+			<text x="727.787109375" y="335" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,670) scale(1,-1)">bigint</text>
+			<path d="M 356,326 L 764,326 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<rect x="356" y="297" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="370.7099609375" y="303" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,606) scale(1,-1)">FK</text>
+			<text x="414" y="303" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,606) scale(1,-1)">usuario_id</text>
+			<text x="727.787109375" y="303" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,606) scale(1,-1)">bigint</text>
+			<path d="M 356,294 L 764,294 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<rect x="356" y="265" width="44" height="21" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1.2; fill: rgb(93%,90%,98%); fill-rule: evenodd;"/>
+			<text x="370.7099609375" y="271" style="font-family: Bold; font-size: 10px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,542) scale(1,-1)">FK</text>
+			<text x="414" y="271" style="font-family: Bold; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,542) scale(1,-1)">pista_id</text>
+			<text x="727.787109375" y="271" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,542) scale(1,-1)">bigint</text>
+			<path d="M 356,262 L 764,262 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="414" y="239" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,478) scale(1,-1)">fecha</text>
+			<text x="734.94140625" y="239" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,478) scale(1,-1)">date</text>
+			<path d="M 356,230 L 764,230 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="414" y="207" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,414) scale(1,-1)">hora_inicio</text>
+			<text x="734.888671875" y="207" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,414) scale(1,-1)">time</text>
+			<path d="M 356,198 L 764,198 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="414" y="175" style="font-family: Regular; font-size: 14px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,350) scale(1,-1)">hora_fin</text>
+			<text x="734.888671875" y="175" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,350) scale(1,-1)">time</text>
+			<text x="48" y="393" style="font-family: Bold; font-size: 13px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,786) scale(1,-1)">CLAVES FORÁNEAS</text>
+			<text x="48" y="361" style="font-family: Regular; font-size: 12px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,722) scale(1,-1)">usuario_id → auth_user.id</text>
+			<text x="48" y="335" style="font-family: Regular; font-size: 12px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,670) scale(1,-1)">pista_id → reservas_pista.id</text>
+			<text x="48" y="299" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,598) scale(1,-1)">Ambas relaciones:</text>
+			<text x="48" y="275" style="font-family: Bold; font-size: 13px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,550) scale(1,-1)">on_delete = CASCADE</text>
+			<text x="48" y="248" style="font-family: Regular; font-size: 11px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,496) scale(1,-1)">Al eliminar el usuario o la pista,</text>
+			<text x="48" y="227" style="font-family: Regular; font-size: 11px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,454) scale(1,-1)">Django elimina sus reservas.</text>
+			<text x="816" y="393" style="font-family: Bold; font-size: 13px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,786) scale(1,-1)">CARDINALIDAD</text>
+			<text x="816" y="361" style="font-family: Regular; font-size: 12px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,722) scale(1,-1)">Cada reserva tiene un usuario</text>
+			<text x="816" y="338" style="font-family: Regular; font-size: 12px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,676) scale(1,-1)">y una pista obligatorios.</text>
+			<text x="816" y="300" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,600) scale(1,-1)">Cada usuario y cada pista</text>
+			<text x="816" y="277" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,554) scale(1,-1)">pueden tener cero o muchas</text>
+			<text x="816" y="254" style="font-family: Regular; font-size: 12px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,508) scale(1,-1)">reservas.</text>
+			<rect x="48" y="49" width="1024" height="80" rx="12" ry="12" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="66" y="104" style="font-family: Bold; font-size: 13px;fill: rgb(40%,31%,54%); stroke:none;" transform="translate(0,208) scale(1,-1)">REGLAS EN Reserva.clean()</text>
+			<text x="66" y="80" style="font-family: Regular; font-size: 12px;fill: rgb(16%,14%,23%); stroke:none;" transform="translate(0,160) scale(1,-1)">Fin posterior al inicio. Sin solapamientos para la misma pista y fecha; se permiten reservas consecutivas.</text>
+			<path d="M 48,31 L 1072,31 Z" style="stroke: rgb(84%,81%,89%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="48" y="11" style="font-family: Regular; font-size: 10px;fill: rgb(38%,36%,45%); stroke:none;" transform="translate(0,22) scale(1,-1)">PK: primaria · FK: foránea · UK: única. Tipos lógicos según el archivo aportado; no es un esquema físico exhaustivo.</text>
+		</g>
+	</g>
+</svg>

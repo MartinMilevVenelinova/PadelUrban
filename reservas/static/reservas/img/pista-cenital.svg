@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 140" fill="none" aria-hidden="true">
+  <rect x="10" y="10" width="260" height="120" rx="14" fill="#FFFFFF" stroke="#66508C" stroke-width="2.5"/>
+  <rect x="20" y="18" width="240" height="104" rx="8" fill="#DEEAF8" fill-opacity="0.55" stroke="#66508C" stroke-width="1.5"/>
+  <!-- Red central -->
+  <line x1="140" y1="14" x2="140" y2="126" stroke="#29263D" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <!-- Líneas de saque -->
+  <line x1="68" y1="18" x2="68" y2="122" stroke="#66508C" stroke-width="1.5"/>
+  <line x1="212" y1="18" x2="212" y2="122" stroke="#66508C" stroke-width="1.5"/>
+  <line x1="68" y1="70" x2="212" y2="70" stroke="#66508C" stroke-width="1.5"/>
+  <!-- Pelota -->
+  <circle cx="192" cy="45" r="9" fill="#FAE1D2" stroke="#66508C" stroke-width="1.8"/>
+  <path d="M187 38c3 3 3 11 0 14" stroke="#66508C" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,285 @@
+:root {
+    --pu-bg: #FCFAF7;
+    --pu-surface: #FFFFFF;
+    --pu-lavender: #EEE8FB;
+    --pu-peach: #FAE1D2;
+    --pu-blue: #DEEAF8;
+    --pu-text: #29263D;
+    --pu-text-muted: #625D73;
+    --pu-primary: #66508C;
+    --pu-primary-hover: #503D72;
+    --pu-border: #E5DFEA;
+    --pu-radius: 20px;
+    --pu-shadow: 0 8px 28px rgba(41, 38, 61, 0.05);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--pu-bg);
+    color: var(--pu-text);
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-weight: 700;
+    color: var(--pu-text);
+    letter-spacing: -0.015em;
+}
+
+.text-pu-muted {
+    color: var(--pu-text-muted);
+}
+
+/* Cabecera */
+.pu-navbar {
+    background-color: var(--pu-surface);
+    border-bottom: 1px solid var(--pu-border);
+}
+
+.pu-brand {
+    color: var(--pu-text);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+}
+
+.pu-brand:hover, .pu-brand:focus-visible {
+    color: var(--pu-primary);
+}
+
+.pu-nav-link {
+    color: var(--pu-text);
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+    border-radius: 12px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+.pu-nav-link:hover, .pu-nav-link:focus-visible {
+    background-color: var(--pu-lavender);
+    color: var(--pu-primary-hover);
+}
+
+.pu-user-pill {
+    background-color: var(--pu-blue);
+    color: var(--pu-text);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Botones */
+.btn-pu-primary {
+    background-color: var(--pu-primary);
+    border: 1px solid var(--pu-primary);
+    color: #FFFFFF;
+    font-weight: 600;
+    min-height: 44px;
+    padding: 0.55rem 1.25rem;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.btn-pu-primary:hover, .btn-pu-primary:focus-visible {
+    background-color: var(--pu-primary-hover);
+    border-color: var(--pu-primary-hover);
+    color: #FFFFFF;
+}
+
+.btn-pu-secondary {
+    background-color: var(--pu-surface);
+    border: 1px solid var(--pu-border);
+    color: var(--pu-text);
+    font-weight: 600;
+    min-height: 44px;
+    padding: 0.55rem 1.15rem;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.btn-pu-secondary:hover, .btn-pu-secondary:focus-visible {
+    background-color: var(--pu-lavender);
+    border-color: var(--pu-primary);
+    color: var(--pu-text);
+}
+
+.btn-pu-danger {
+    background-color: var(--pu-peach);
+    border: 1px solid #F0C4AE;
+    color: var(--pu-text);
+    font-weight: 600;
+    min-height: 44px;
+    padding: 0.45rem 1rem;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.btn-pu-danger:hover, .btn-pu-danger:focus-visible {
+    background-color: #F5CEB9;
+    border-color: #E2A98C;
+    color: var(--pu-text);
+}
+
+/* Foco visible accesible */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.btn:focus-visible {
+    outline: 3px solid var(--pu-primary);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+/* Tarjetas */
+.pu-card {
+    background-color: var(--pu-surface);
+    border: 1px solid var(--pu-border);
+    border-radius: var(--pu-radius);
+    box-shadow: var(--pu-shadow);
+}
+
+.pu-hero-compact {
+    background-color: var(--pu-lavender);
+    border: 1px solid var(--pu-border);
+    border-radius: var(--pu-radius);
+    padding: 1.5rem 1.75rem;
+}
+
+.pu-reserva-card {
+    background-color: var(--pu-surface);
+    border: 1px solid var(--pu-border);
+    border-radius: var(--pu-radius);
+    box-shadow: var(--pu-shadow);
+    padding: 1.35rem 1.5rem;
+    transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.pu-reserva-card--propia {
+    background: linear-gradient(180deg, rgba(238, 232, 251, 0.55) 0%, #FFFFFF 100%);
+    border-color: #CBBCEB;
+    border-left: 5px solid var(--pu-primary);
+}
+
+.pu-date-pill {
+    background-color: var(--pu-blue);
+    color: var(--pu-text);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.pu-badge-propia {
+    background-color: var(--pu-primary);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+}
+
+.pu-duration-pill {
+    background-color: var(--pu-peach);
+    color: var(--pu-text);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 8px;
+}
+
+/* Formularios */
+.pu-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+.pu-form select.form-select {
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: var(--pu-text);
+    background-color: var(--pu-surface);
+    border: 1px solid var(--pu-border);
+    border-radius: 12px;
+    transition: border-color 180ms ease, background-color 180ms ease;
+}
+
+.pu-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):focus,
+.pu-form select.form-select:focus {
+    border-color: var(--pu-primary);
+}
+
+.pu-link {
+    color: var(--pu-primary);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.pu-link:hover {
+    color: var(--pu-primary-hover);
+}
+
+/* Split Auth */
+.pu-auth-panel {
+    background-color: var(--pu-lavender);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+/* Alertas flash suaves */
+.pu-alert {
+    border-radius: 14px;
+    border: 1px solid var(--pu-border);
+    color: var(--pu-text);
+    font-weight: 500;
+}
+
+.pu-alert-success {
+    background-color: var(--pu-blue);
+    border-color: #C7DBF2;
+}
+
+.pu-alert-danger, .pu-alert-error {
+    background-color: var(--pu-peach);
+    border-color: #F0C4AE;
+}
+
+.pu-alert-info, .pu-alert-warning {
+    background-color: var(--pu-lavender);
+    border-color: #D7CBF2;
+}
+
+.pu-decorative {
+    pointer-events: none;
+    user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
